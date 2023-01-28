@@ -1,0 +1,605 @@
+.nav_bar{
+width:100%;
+padding:0.5rem;
+height: 4em;
+margin: auto;
+display:flex;
+align-items: center;
+justify-content: flex-start;
+position: relative;
+background-color: transparent;
+
+}
+.nav_bar__logo{
+width: 3.5%;
+height:auto;
+position: relative;
+}
+.nav_bar__logo-icon{
+width:100%; 
+height: 100%;
+vertical-align:bottom;
+}
+.nav_bar__compName{
+width:25%;
+font-size: 1.5vw;
+font-weight:500;
+margin-left:0.7rem;
+color:gray;
+padding-bottom: 0.3%;
+}
+.nav_bar__mobile_btn{
+margin-top: 0.7%;
+display: none;
+}
+.nav_bar__login{
+width: 7vw;
+height: 100%;
+}
+.nav_bar__login-btn{
+font-size: 1vw ;
+width: 100%;
+height: 100%;
+color: rgb(197, 196, 197);
+border: 1px solid rgb(248, 247, 248);
+background-color: transparent;
+
+}
+.nav_bar__login-btn:hover{
+  color: rgb(248, 247, 248);
+  transition: 0.4s
+  }
+.nav_bar__wraper{
+  margin-left: auto;
+  padding-right: 2em;
+}
+.nav_bar__menu{
+list-style-type: none;
+margin: 0;
+padding-top: 0%;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: row;
+text-decoration: none;
+gap: 25px;	
+font-size: 1vw;
+}
+.nav_bar__menu_a {
+color: rgb(197, 196, 197);
+text-align: center;
+text-decoration: none;
+}
+.nav_bar__menu_a:hover {
+
+}
+.nav_bar__mobileBtn{
+  display: none;
+}
+.nav_Mobilemenu{
+  display: none;
+}
+
+
+@media screen and (max-width: 920px) {
+  .nav_bar{
+    width:100%;
+    height: 5em;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    justify-content: flex-start;
+    position: relative;
+    
+    }
+    .nav_bar__logo{
+    width:6%;
+    height:auto;
+    position: relative;
+    }
+    .nav_bar__logo-icon{
+    width:100%; 
+    height: 100%;
+    }
+    .nav_bar__compName{
+    width:40%;
+    font-size: 2.5vw;
+    font-weight:500;
+    margin-left:0.7rem;
+    padding-bottom: 0.3%;
+    }
+    .nav_bar__mobile_btn{
+    margin-top: 0.7%;
+    height: 30%;
+    display: none;
+    }
+    .nav_bar__login{
+    width: 9vw;
+    height: 100%;
+    }
+    .nav_bar__login-btn{
+    font-size: 1.6vw ;
+    width: 100%;
+    height: 100%;
+    color: rgb(197, 196, 197);
+    background-color: transparent;
+    }
+    .nav_bar__login-btn:hover{
+      color: rgb(248, 247, 248);
+      transition: 0.4s
+      }
+    .nav_bar__wraper{
+      margin-left: auto;
+      padding-right: 2em;
+    }
+    .nav_bar__menu{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 15px;	
+    font-size: 1.6vw;
+    }
+    .nav_bar__menu_a {
+    color: rgb(197, 196, 197);
+    text-align: center;
+    text-decoration: none;
+    }
+    .nav_bar__menu_a:hover {
+    color: rgb(250, 245, 250);
+    }
+    .nav_Mobilemenu{
+      display: none;
+    }
+}
+
+
+@media screen and (max-width: 830px) {
+    .nav_bar__logo{
+    width:7%;
+    height:auto;
+    position: relative;
+    }
+    .nav_bar__logo-icon{
+    width:100%; 
+    height: 100%;
+    }
+    .nav_bar__login{
+      width: 10vw;
+      height: 100%;
+      }
+      .nav_bar__login-btn{
+      font-size: 1.6vw ;
+      width: 100%;
+      height: 100%;
+      color: rgb(197, 196, 197);
+      border: 1px solid rgb(197, 196, 197);
+      background-color: transparent;
+      }
+      .nav_Mobilemenu{
+        display: none;
+      }
+}
+
+@media screen and (max-width: 550px) {
+  .nav_bar{
+    width:100%;
+    height: 4em;
+    margin: auto;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    display:flex;
+    justify-content: flex-start;
+    position: relative;
+	padding:0.5rem
+    }
+    .nav_bar__logo{
+    width: 10%;
+    height:auto;
+    position: relative;
+    }
+    .nav_bar__logo-icon{
+    width:100%; 
+    height: 100%;
+    }
+    .nav_bar__compName{
+    width: 40%;
+    font-size: 3.5vw;
+    font-weight:500;
+    margin-left:0.7rem;
+    padding-bottom: 1%;
+    }
+
+    .nav_bar__login{
+    width: 25%;
+    height: 100%;
+    margin-left: auto;
+    padding-right: 3rem;
+    
+    
+    }
+    .nav_bar__login-btn{
+    font-size: 3.5vw ;
+    width: 100%;
+    height: 100%;
+    color: rgb(197, 196, 197);
+    background-color: transparent;
+    
+    }
+    .nav_bar__login-btn:hover{
+      color: rgb(248, 247, 248);
+      transition: 0.4s
+      }
+    .nav_bar__wraper{
+      margin-left: auto;
+      padding-right: 2em;
+      display: none;
+    }
+    .nav_bar__menu{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 25px;	
+    font-size: 1vw;
+    }
+    .nav_bar__menu_a {
+    color: rgb(197, 196, 197);
+    text-align: center;
+    text-decoration: none;
+    }
+    .nav_bar__menu_a:hover {
+    color: rgb(250, 245, 250);
+    }
+    .nav_bar__mobileBtn{
+      font-size: 2.3em;
+      display: block;
+      align-items: center;
+      color: rgb(247, 243, 247);
+      padding-top: 1.6%;
+	  margin-left:auto
+    }
+    .nav_bar__mobileBtn :hover{
+	 color: rgb(185, 184, 185);
+    }
+    .nav_Mobilemenu{
+      color: gray;
+      width: 90%;
+      height: 90vh;
+      right: -1.8%;
+      top: 100%;
+	  padding:1rem;
+      background-color:  transparent;
+      overflow: hidden;
+      position: absolute;
+      z-index: 2;
+      border-radius: 2vw 0vw 0vw 2vw;
+      display: block;
+      animation:  mobileMenu  linear;
+	  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.1);
+      display: none;
+    }  
+    .nav_Mobilemenu ul{
+      list-style: none;
+      margin: 0;
+      padding: 1vw;
+      z-index: 2;
+      font-size: 4vw;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+    } 
+    .nav_Mobilemenu ul li:hover{
+      color:  rgb(245, 190, 245);
+    }   
+    .nav_Mobilemenu_battleNet{
+      font-size: 60vw;
+      position: absolute;
+      bottom: -17%;
+      right: -9%;
+      z-index: -1;
+      color: rgb(240, 238, 240);
+      animation:  imageroto infinite 24s linear;
+    }
+    .nav_bar__menu_aMobile{
+      text-decoration: none;
+      color: inherit;
+    }
+
+    @keyframes imageroto {
+      from{
+          transform:rotate(0deg);
+        }
+        
+        to{
+          transform:rotate(360deg);
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+  .nav_bar{
+    width:100%;
+    height: 4em;
+    margin: auto;
+    margin-bottom: 0.7em;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    justify-content: flex-start;
+    position: relative;
+    }
+    .nav_bar__logo{
+    width: 13%;
+    height:auto;
+    position: relative;
+    }
+    .nav_bar__logo-icon{
+    width:100%; 
+    height: 100%;
+    }
+    .nav_bar__compName{
+    width: 40%;
+    font-size: 3.7vw;
+    font-weight:500;
+    margin-left:0.7rem;
+    padding-bottom: 0.3%;
+    }
+    .nav_bar__mobile_btn{
+    color:rgb(248, 245, 245);
+    font-size: 5em;
+    width: auto;
+    display: block;
+    
+    }
+    .nav_bar__login{
+    width: 30%;
+    height: 100%;
+    margin-left: auto;
+    padding-right: 3rem;
+    
+    
+    }
+    .nav_bar__login-btn{
+    font-size: 3.5vw ;
+    width: 100%;
+    height: 100%;
+    color: rgb(197, 196, 197);
+    background-color: transparent;
+    
+    }
+    .nav_bar__login-btn:hover{
+      color: rgb(248, 247, 248);
+      transition: 0.4s
+      }
+    .nav_bar__wraper{
+      margin-left: auto;
+      padding-right: 2em;
+      display: none;
+    }
+    .nav_bar__menu{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 25px;	
+    font-size: 1vw;
+    }
+    .nav_bar__menu_a {
+    color: rgb(197, 196, 197);
+    text-align: center;
+    text-decoration: none;
+    }
+    .nav_bar__menu_a:hover {
+    color: rgb(250, 245, 250);
+    }
+    .nav_bar__mobileBtn{
+      font-size: 1.8em;
+      display: block;
+      align-items: center;
+	  color: rgb(247, 243, 247);
+      padding-top: 1.4%;
+    }
+    .nav_bar__mobileBtn :hover{
+     color: rgb(185, 184, 185); 
+    }
+    .nav_Mobilemenu{
+      color: gray;
+      width: 90%;
+      height: 94vh;
+      right: -1.8%;
+      top: 100%;
+      background-color:  white;
+      overflow: hidden;
+      position: absolute;
+      z-index: 2;
+      border-radius: 2vw 0vw 0vw 2vw;
+      display: block;
+      animation:  mobileMenu  linear;
+      display: none;
+      transition: .4s;
+    }  
+    .nav_Mobilemenu ul{
+      list-style: none;
+      margin: 0;
+      padding: 1vw;
+      z-index: 2;
+      font-size: 5vw;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+    } 
+    .nav_Mobilemenu ul li:hover{
+      color:  rgb(245, 190, 245);
+    }   
+    .nav_Mobilemenu_battleNet{
+      font-size: 70vw;
+      position: absolute;
+      bottom: -17%;
+      left: 15%;
+      z-index: -1;
+      color: rgb(240, 238, 240);
+      animation:  imageroto infinite 24s linear;
+    }
+    .nav_bar__menu_aMobile{
+      text-decoration: none;
+      color: inherit;
+    }
+
+}
+
+@media screen and (max-width: 290px) {
+  .nav_bar{
+    width:100%;
+    height: 4em;
+    margin: auto;
+    margin-bottom: 0.7em;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    justify-content: flex-start;
+    position: relative;
+    }
+    .nav_bar__logo{
+    width: 15%;
+    height:auto;
+    position: relative;
+    }
+    .nav_bar__logo-icon{
+    width:100%; 
+    height: 100%;
+    }
+    .nav_bar__compName{
+    width: 70%;
+    font-size: 5vw;
+    font-weight:500;
+    margin-left:0.7rem;
+    color:rgb(248, 245, 245);
+    padding-bottom: 0.3%;
+    }
+    .nav_bar__mobile_btn{
+    color:rgb(248, 245, 245);
+    font-size: 5em;
+    width: auto;
+    display: block;
+    
+    }
+    .nav_bar__login{
+    width: 35%;
+    height: 100%;
+    margin-left: auto;
+    padding-right: 3rem;
+    
+    
+    }
+    .nav_bar__login-btn{
+    font-size: 3.5vw ;
+    width: 100%;
+    height: 100%;
+    color: rgb(197, 196, 197);
+    background-color: transparent;
+    
+    }
+    .nav_bar__login-btn:hover{
+      color: rgb(248, 247, 248);
+      transition: 0.4s
+      }
+    .nav_bar__wraper{
+      margin-left: auto;
+      padding-right: 2em;
+      display: none;
+    }
+    .nav_bar__menu{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-decoration: none;
+    gap: 25px;	
+    font-size: 1vw;
+    }
+    .nav_bar__menu_a {
+    color: rgb(197, 196, 197);
+    text-align: center;
+    text-decoration: none;
+    }
+    .nav_bar__menu_a:hover {
+    color: rgb(250, 245, 250);
+    }
+    .nav_bar__mobileBtn{
+      font-size: 1.2em;
+      display: block;
+      align-items: center;
+      color: rgb(185, 184, 185);
+      padding-top: 1.4%;
+    }
+    .nav_bar__mobileBtn :hover{
+      color: rgb(247, 243, 247);
+    }
+    .nav_Mobilemenu{
+      color: gray;
+      width: 90%;
+      height: 94vh;
+      right: -1.8%;
+      top: 100%;
+      background-color:  white;
+      overflow: hidden;
+      position: absolute;
+      z-index: 2;
+      border-radius: 2vw 0vw 0vw 2vw;
+      display: block;
+      animation:  mobileMenu  linear;
+      display: none;
+      transition: .4s;
+    }  
+    .nav_Mobilemenu ul{
+      list-style: none;
+      margin: 0;
+      padding: 1vw;
+      z-index: 2;
+      font-size: 5vw;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5em;
+    } 
+    .nav_Mobilemenu ul li:hover{
+      color:  rgb(245, 190, 245);
+    }   
+    .nav_Mobilemenu_battleNet{
+      font-size: 70vw;
+      position: absolute;
+      bottom: -17%;
+      left: 15%;
+      z-index: -1;
+      color: rgb(240, 238, 240);
+      animation:  imageroto infinite 24s linear;
+    }
+    .nav_bar__menu_aMobile{
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
